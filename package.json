@@ -1,0 +1,19 @@
+{
+  "name": "real_time_pizza_webapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Manish Adtani",
+  "scripts": {
+    "serve": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
